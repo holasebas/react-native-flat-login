@@ -8,11 +8,10 @@ import {
   TextInput,
   Animated,
   ActivityIndicator,
-  KeyboardAvoidingView} from 'react-native';
+  } from 'react-native';
 import PropTypes from 'prop-types'
 
 let deviceWidth = Dimensions.get('window').width
-
 export default class FlatLogin extends Component {
   static propTypes = {
         onIndexChanged: PropTypes.func,
@@ -27,7 +26,6 @@ export default class FlatLogin extends Component {
         inputTextStyle:PropTypes.object
      
   }
-
   static defaultProps = {
         onIndexChanged: () => null,
         titleTxt:"SIGN UP",

@@ -1,18 +1,22 @@
 {
   "name": "react-native-flat-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native flat design login component",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/index.js",
   "keywords": [
     "react-native",
     "react",
     "javascript",
     "login",
-    "flat"
+    "flat",
+    "react-component",
+    "ios",
+    "Android"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holasebas/react-native-flat-login.git"
+  },
   "author": "Sebastian Diaz",
   "license": "ISC"
 }
