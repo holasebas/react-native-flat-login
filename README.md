@@ -66,4 +66,4 @@ const styles = StyleSheet.create({
 
 # Contact
 
-Twitter: @holaconstancio
+Twitter: @cbastian0
