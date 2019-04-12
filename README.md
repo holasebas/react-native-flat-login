@@ -19,15 +19,10 @@ export default class App extends Component {
     return (
    <KeyboardAvoidingView style={styles.container} behavior='padding'>
         <FlatLogin
-        colorSet={["#fAfAfA","#77A7DF","#5391D8", "#5391D8"]}
-        placeHolders={["ENTER YOUR EMAIL HERE","ENTER YOUR PASSWORD HERE","REPEAT YOUR PASSWORD HERE"]}
-        titleTxt="SING UP"
-        titleStyle={{marginTop:20, marginLeft:20, fontSize:20, fontWeight:'800', color:'#000'}}
+        titleTxt="SIGN UP"
         noteTxt="Fill in all information"
-        noteStyle={{ fontSize:12, marginLeft:20,fontSize:14,letterSpacing:1,color:"#999"}}
         buttomText="GO"
         spinnerColor="#80B4E1"
-        inputTextStyle={{flex:1, width:'100%',paddingLeft:30,paddingTop:10,color:'#80B4E1'}}
         onSubmit={(data)=> {console.log(data)}} />     
   </KeyboardAvoidingView>
     );
@@ -48,7 +43,7 @@ const styles = StyleSheet.create({
  | ---      | ---       | ---      | ---       |
 | colorSet|["#fAfAfA","#77A7DF","#5391D8", "#5391D8"]|Array|Set component colors|
 | placeHolders|["ENTER YOUR EMAIL HERE","ENTER YOUR PASSWORD HERE","REPEAT YOUR PASSWORD HERE"]|Array|Define placeholder for each TextInput|
-| titleTxt| "SING UP" |String|Tittle text|
+| titleTxt| "SIGN UP" |String|Tittle text|
 | titleStyle|{marginTop:20, marginLeft:20, fontSize:20, fontWeight:'800', color:'#000'}|Object|Styles for title text|
 | noteTxt|"Fill in all information"|Stirng|Note text next to Title text|
 | noteStyle|{ fontSize:12, marginLeft:20,fontSize:14,letterSpacing:1,color:"#999"}|Object|Styles for note text|
